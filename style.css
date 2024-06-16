@@ -51,3 +51,14 @@ button
     background-color: lightgreen;
     border-radius: 3px;
 }
+
+.win
+{
+    animation: winAnimation ease-in-out 1s;
+}
+
+@keyframes winAnimation
+{
+    0%{background-color: brown;}
+    100%{background-color: lightgreen;}
+}
